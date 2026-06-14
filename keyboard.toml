@@ -26,6 +26,9 @@
     [[layer]]
     encoders = [["AudioVolUp", "AudioVolDown"]]
 
+    [[layer]]
+    encoders = [["BrightnessUp", "BrightnessDown"]]
+
     [layout]
     rows = 4
     cols = 10
