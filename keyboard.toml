@@ -61,7 +61,7 @@
     [[input_device.encoder]]
     pin_a = "P0_02"
     pin_b = "P1_15"
-    internal_pullup = false
+    internal_pullup = true
     phase = "resolution"
     resolution = 4
     reverse = false
