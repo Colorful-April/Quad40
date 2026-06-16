@@ -56,7 +56,7 @@
     """
 
     [light]
-    capslock = { pin = "P0_31", low_active = true }
+    capslock = { pin = "P0_31", low_active = false }
 
     [[input_device.encoder]]
     pin_a = "P0_02"
@@ -64,4 +64,4 @@
     internal_pullup = true
     phase = "resolution"
     resolution = 4
-    reverse = false
+    reverse = true
